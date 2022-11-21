@@ -1,0 +1,56 @@
+.xiaoyuan{
+	width: 100%;
+	height: 600px;
+	background-color: #eee;
+}
+.xiaoyuan .kandian{
+	width: 1400px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
+.xiaoyuan .kandian h2{
+	float: left;
+	border-right: 3px solid purple;
+	font-size: 40px;
+	padding-right: 30px;
+}
+.xiaoyuan .kandian p{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+
+.xiaoyuan .kecheng{
+	clear: both;
+	width: 1400px;
+	height: 450px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.xiaoyuan  .kecheng dl{
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-right: 66px;
+	/*溢出时隐藏*/
+	overflow: hidden;
+}
+.xiaoyuan  .kecheng .ling{
+	margin-right: 0;
+}
+.xiaoyuan .kecheng dl dt img{
+	width: 100%;
+	transition: all 1s;
+	cursor: pointer;
+}
+.xiaoyuan .kecheng dl dd h2{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.xiaoyuan .kecheng dl dt img:hover{
+	transform: scale(1.1);
+}

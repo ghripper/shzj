@@ -1,0 +1,58 @@
+.datu{
+	width: 100%;
+	height: 1000px;
+	/*background-color: #ccc;*/
+	background-image: url(../images/datubg.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	/*margin-top: 120px;*/
+}
+.datu .sousuo{
+	width: 50%;
+	height: 200px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -100px;
+	left: 25%;
+}
+.datu .sousuo input{
+	width: 80%;
+	margin-left: 10%;
+	height: 100px;
+	margin-top: 20px;
+	border: 0;
+	/*下边框线*/
+	border-bottom: 2px solid purple;
+	font-size: 30px;
+	/*外框线*/
+	outline: 0;
+	color: purple;
+	background-image: url(../images/sousuo.png);
+	background-repeat: no-repeat;
+	/*背景位置*/
+	background-position: right 30px;
+}
+
+.datu .sousuo input[type=text]::placeholder{
+	/*placeholder 默认颜色*/
+	color: purple;
+
+}
+
+
+.datu .sousuo ul{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.datu .sousuo ul li{
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+
+}
+.datu .sousuo ul li a{
+	text-decoration: none;
+	font-size: 16px;
+}

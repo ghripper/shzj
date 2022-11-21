@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin: 0;padding: 0;}
+		ul{
+			width: 300px;
+			height: 200px;
+			line-height: 50px;
+			background-color: #ccc;
+		}
+		ul li {
+			float: left;
+			list-style: none;
+			text-align: center;
+			width: 100px;
+
+		}
+		ul li div{
+			background-color: orange;
+			width: 300px;
+			height: 150px;
+			display: none;
+		}
+		ul li .show{
+			/*display: block;*/
+		}
+		ul li:hover div{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="">导航</a>
+			<div class="show">1</div>
+		</li>
+		<li>
+			<a href="">导航</a>
+			<div>2</div>
+		</li>
+		<li>
+			<a href="">导航</a>
+			<div>3</div>
+		</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,87 @@
+.xinwen{
+	width: 1400px;
+	height: 700px;
+	/*background-color: #333;*/
+	margin: 150px auto;
+	margin-bottom: 100px;
+
+}
+.xinwen dl{
+	overflow: hidden;
+}
+.xinwen dl img{
+	transition: all 1s;
+	cursor: pointer;
+}
+.xinwen dl img:hover{
+	transform: scale(1.1);
+}
+
+
+
+.xinwen .a{
+	width: 300px;
+	height: 500px;
+	/*background-color: #ccc;*/
+	float: left;
+}
+.xinwen .a dl dt img{
+	width: 100%;
+	height: 160px;
+}
+.xinwen .a dd{
+	font-size: 26px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	color: #333;
+}
+.xinwen .a ul li{
+	list-style: none;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #ccc;
+}
+.xinwen .a ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+}
+
+.xinwen .b{
+	width: 700px;
+	/*background-color: #f00;*/
+	height: 700px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.xinwen .b dt{
+	height: 400px;
+}
+.xinwen .b img{
+	width: 100%;
+	height: 400px;
+}
+.xinwen .b dd {
+	text-align: center;
+	height: 290px;
+	border: 1px solid #ccc;
+}
+
+.xinwen .b dd .p1{
+	color: purple;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.xinwen .b dd h2{
+	margin-bottom: 30px;
+	/*color: */
+}
+.xinwen .b dd .p2{
+	/*color: */
+	width: 500px;
+	margin-left: 100px;
+}

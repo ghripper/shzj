@@ -1,0 +1,86 @@
+.xueshu{
+	width: 1400px;
+	height: 800px;
+	margin: 100px auto;
+	position: relative;
+}
+.xueshu .left{
+	width: 500px;
+	height: 800px;
+	float: left;
+	/*background-color: pink;*/
+}
+.xueshu .left h2{
+	font-size: 30px;
+	border-bottom: 3px solid purple;
+	width: 120px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.xueshu .left p{
+	color: #666;
+	width: 350px;
+	margin-bottom: 70px;
+}
+.xueshu .left ul li {
+	list-style: none;
+	height: 60px;
+	margin-bottom: 30px;
+	background: #fff;
+	transition: all 1s;
+	cursor: pointer;
+}
+.xueshu .left ul li:hover{
+	transform: translateX(30px);
+}
+.xueshu .left ul li:hover img{
+	display: block;
+}
+
+.xueshu .left ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+.xueshu .left ul li img{
+	position: absolute;
+	left: 500px;
+	top: 0;
+	display: none;
+	width: 900px;
+	height: 800px;
+}
+.xueshu .left ul li:hover .img1{
+	top: -320px;
+}
+.xueshu .left ul li:hover .img2{
+	top: -410px;
+}
+.xueshu .left ul li:hover .img3{
+	top: -500px;
+}
+.xueshu .left ul li:hover .img4{
+	top: -590px;
+}
+.xueshu .left ul li:hover .img5{
+	top: -680px;
+}
+
+
+
+
+.xueshu .right{
+	width: 870px;
+	margin-left: 30px;
+	height: 800px;
+	background-color: pink;
+	float: left;
+	background-image: url(../images/a.jpg);
+	
+}
+.xueshu .right img{
+	width: 100%;
+	height: 800px;
+
+}
